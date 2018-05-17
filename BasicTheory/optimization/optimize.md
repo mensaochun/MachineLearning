@@ -58,7 +58,7 @@ $s.t.\ h(x)=0$
 
 泰勒展开公式用数学表达式表示如下：
 
-![11](E:\MachineLearning\Optimization\pics\11.png)
+![11](./pics/11.png)
 
 其中$f(x)$是被近似的函数，$g(x)$是近似$f(x)$的多项式函数。注意$f(x_0)=g(x_0)$。
 
