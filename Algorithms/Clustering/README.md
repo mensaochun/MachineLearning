@@ -1,12 +1,30 @@
 # Clustering
-## Resource
-1. The 5 Clustering Algorithms Data Scientists Need to Know:https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
-翻译版本：https://zhuanlan.zhihu.com/p/37381630
+## 总参考
+[The 5 Clustering Algorithms Data Scientists Need to Know](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
+[翻译版本数据科学家需要了解的5种聚类算法](https://zhuanlan.zhihu.com/p/37381630)
 
 ## Kmeans
-贪心算法又叫做贪婪算法，最大的特点就是，它在每一步做出的选择，是就当前情况而言，是最优的选择。换句话说，有可能尽管当前情况下的选择是最优的，却没有从整体的角度考虑，因此不一定是全局最优解。所以这个算法叫贪婪。
-就我们而言，当然希望贪婪算法求得的解是全局最优解。那么在满足什么条件下能用贪婪算法求解呢？ 这篇博客中 总结了两个重要性质：贪心选择性质和最优子结构性质。
-所谓贪心选择性质是指所求问题的整体最优解可以通过一系列局部最优的选择，即贪心选择来达到。贪心算法则通常以自顶向下的方式进行，以迭代的方式作出相继的贪心选择，每作一次贪心选择就将所求问题简化为规模更小的子问题。而对于一个具体问题，要确定它是否具有贪心选择性质，必须证明每一步所作的贪心选择最终导致问题的整体最优解。
-而最优子结构性质是指，当一个问题的最优解包含其子问题的最优解时，称此问题具有最优子结构性质。
-其实这两条性质总结起来就是一个意思，就是一个问题的最优解，一定包含了贪心策略中存在的子问题的最优解。
-Resource:https://blog.csdn.net/wolf96/article/details/48193675
+参考：距离产生美？[k近邻算法python实现](https://zhuanlan.zhihu.com/p/37817900)
+
+### 注意点
+
+Kmeans实际上是一种贪心算法
+
+关于贪心的解释：[聚类算法综述](http://www.cnblogs.com/gufeiyang/p/3728574.html)
+
+## DBSCAN
+
+参考：
+
+1. [无监督学习-DBSCAN聚类算法及应用](https://www.cnblogs.com/python-machine/p/6941949.html)
+2. [DBSCAN密度聚类算法](https://www.cnblogs.com/pinard/p/6208966.html)
+
+
+## Meanshift
+
+参考：
+
+[Meanshift，聚类算法](https://www.cnblogs.com/liqizhou/archive/2012/05/12/2497220.html)
+
+[简单易学的机器学习算法——Mean Shift聚类算法](https://blog.csdn.net/google19890102/article/details/51030884)
+

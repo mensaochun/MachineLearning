@@ -1,4 +1,35 @@
 # Machine Learning
 
 ## Useful resource
-https://www.zhihu.com/search?type=content&q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E7%AE%97%E6%B3%95
+[机器学习算法面试小结](https://zhuanlan.zhihu.com/p/29677765)
+
+## Review
+
+算法
+
+- [ ] SVM
+- [ ] 线性回归
+- [ ] KNN
+- [ ] 决策树
+- [ ] 随机森林
+- [ ] GBDT
+
+度量
+
+- [ ] 精确率
+- [ ] 召回率
+- [ ] F1值
+- [ ] ROC
+- [ ] AUC
+
+特征选择
+
+- [ ] 过滤法
+- [ ] Embedded集成方法
+- [ ] ​
+
+优化方法
+
+- [ ] 拉格朗日
+- [ ] KKT
+
